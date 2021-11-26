@@ -3,11 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { worker } from "./mocks/browser";
 
 import "react-loading-skeleton/dist/skeleton.css";
-
-worker.start();
 
 ReactDOM.render(
   <React.StrictMode>
