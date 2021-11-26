@@ -7,9 +7,7 @@ import { worker } from "./mocks/browser";
 
 import "react-loading-skeleton/dist/skeleton.css";
 
-if (process.env.NODE_ENV === "development") {
-  worker.start();
-}
+worker.start();
 
 ReactDOM.render(
   <React.StrictMode>
